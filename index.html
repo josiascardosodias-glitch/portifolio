@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    
+    <!-- fonte inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Meu Portifólio</title>
+</head>
+<body>
+    <main>
+        <section class="section">
+            <div id="container_first">
+                <h1 style="font-size: 5em; font-weight: 700;">
+                    Josias Dias Cardoso
+                </h1>
+                <h3 style="font-size: 2em; font-weight: 400;">
+                    Cursando Sistemas de Informação
+                </h3>
+                <div id="links_midia">
+                    <div class="midia_link">
+                        <a href="https://github.com/josiascardosodias-glitch" target="_blank"><img class="pictures" src="src/assets/icons/github-logo.svg" alt="imagem do icone do Github"></a>
+                    </div>
+                    <div class="midia_link">
+                        <a href="https://www.linkedin.com/in/josias-dias-cardoso/" target="_blank"><img class="pictures" src="src/assets/icons/linkedin-logo.svg" alt="imagem do aplicativo linkedin"></a>
+                    </div>
+                    <div class="midia_link">
+                        <a href="https://www.instagram.com/josias.d_cardoso/" target="_blank"></a><img class="pictures" src="src/assets/icons/instagram-logo.svg" alt="imagem do icone do instagram"></a>
+                    </div>
+                    <div class="midia_link">
+                        <img class="pictures" src="src/assets/icons/envelope-simple.svg" alt="imagem de um envelope">
+                    </div>
+                    </div>
+                    <div id="links_conteudo">
+                        <a href="#project">
+                            <div style="background-color: white;" class="link_conteudo">
+                                <p id="txt_link_cont">Ver projetos</p>
+                            </div>
+                        </a>
+                        <!-- zap container -->
+                                <div class="link_conteudo" id="bntzap">
+                                    <p>Entrar em contato</p>
+                                </div>
+                                    <div id="modal">
+                                        <div id="modal_conteudo">
+                                            <p>Gostaria de ser redirecionado para o Whats App ?</p>
+                                            <button id="btn_gowhats">Ir para Whats App</button>
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Sobre Mim -->
+
+        <section class="section" id="sobre">
+    <h1>Sobre Mim</h1>
+
+    <div class="card">
+        <p>
+Tenho pouco mais de um ano de experiência em programação. Comecei com Python, linguagem que voltei a usar recentemente devido á faculdade. Nesse tempo, foquei bastante em desenvolvimento web, o que me ajudou a começar, aos poucos, a usar inteligência artificial nos meus projetos.
+Meu objetivo é me tornar um desenvolvedor full-stack e continuar evoluindo na área até alcançar um nível sênior.
+        </p>
+    </div>
+    </section>
+
+    <!-- habilidades -->
+
+    <section class="section" id="habilits">
+    <h1>Habilidades</h1>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2><img class="pictures" src="src/assets/icons/brackets-angle (1).svg" alt="#"> Front-end</h2>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Flask</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Tailwind</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><img class="pictures" src="src/assets/icons/computer-tower.svg" alt="#"> Back-end</h2>
+            <div class="tags">
+                <span>Python</span>
+                <span>Node.js</span>
+                <span>FastAPI</span>
+                <span>C#</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><img class="pictures" src="src/assets/icons/database.svg" alt="#"> Banco de Dados</h2>
+            <div class="tags">
+                <span>SQLite</span>
+                <span>MongoDB</span>
+                <span>PostgreSQL</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><img class="pictures" src="src/assets/icons/wrench.svg" alt="#"> Ferramentas</h2>
+            <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Docker</span>
+                <span>Figma</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Formação -->
+
+<section class="section" id="forme">
+    <h1>Formação & Cursos</h1>
+
+    <div class="grid">
+
+        <div class="card">
+            <img class="pictures" src="src/assets/icons/graduation-cap.svg" alt="">
+            <h2>Sistemas de Informação</h2>
+            <p>Faccat</p>
+
+            <div class="tags">
+                <span>Graduação</span>
+                <span>Cursando</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="pictures" src="src/assets/icons/book-open.svg" alt="">
+            <h2>Discover</h2>
+            <p>Rocketseat</p>
+
+            <div class="tags">
+                <span>Curso</span>
+                <span>Finalizado</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="pictures" src="src/assets/icons/book-open.svg" alt="">
+            <h2>Engenharia de Prompt</h2>
+            <p>Rocketseat</p>
+
+            <div class="tags">
+                <span>Curso</span>
+                <span>Finalizado</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projetos -->
+
+<section class="section" id="project">
+    <h1>Projetos em Destaque</h1>
+
+    <div class="card">
+        <h2>Sistema de Gerenciamento de Turma</h2>
+
+        <div class="tags">
+            <span>Em Desenvolvimento</span>
+        </div>
+            <p>
+                Projeto feito em Python que possui interação com banco de dados SQL para armazenar dados de alunos como (nome, senha, idade e nota) e também armazenar informações do professor. Onde o mesmo pode criar ou acessar uma turma e gerar notas que podem ser visualizadas pelos alunos.
+            </p>
+
+        <div class="tags">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Flask</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+
+        <a href="https://github.com/josiascardosodias-glitch" target="_blank" class="btn">Ver Repositório</a>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer class="footer">
+
+        <div class="links">
+            <h2>Josias Dias Cardoso</h2>
+            <p>Desenvolvedor em Constante Evolução</p>
+        </div>
+        <div class="links" id="navegacao">
+            <h3>Navegação</h3>
+            <a href="#sobre"><span>Sobre</span></a>
+            <a href="#habilits"><span>Habilidades</span></a>
+            <a href="#forme"><span>Formação</span></a>
+            <a href="#project"><span>Projetos</span></a>
+        </div>
+        <div class="links" id="align_left">
+            <h3>contato</h3>
+            <a id="email" href="#"><span>josiasdiascardoso@gmail.com</span></a>
+            <div id="nav_icons">
+                <div class="midia_link">
+                    <a href="https://github.com/josiascardosodias-glitch" target="_blank"><img class="pictures" src="src/assets/icons/github-logo.svg" alt="imagem do icone do Github"></a>
+                </div>
+                <div class="midia_link">
+                    <a href="https://www.linkedin.com/in/josias-dias-cardoso/" target="_blank"><img class="pictures" src="src/assets/icons/linkedin-logo.svg" alt="imagem do aplicativo linkedin"></a>
+                </div>
+                <div class="midia_link">
+                    <a href="https://www.instagram.com/josias.d_cardoso/" target="_blank"><img class="pictures" src="src/assets/icons/instagram-logo.svg" alt="imagem do icone do instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div id="line_unline"></div>
+</footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
