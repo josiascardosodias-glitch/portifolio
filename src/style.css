@@ -415,7 +415,21 @@ body a{
 
 @media (max-width: 700px) {
     .footer{
-        gap: 12px;
+        width: auto;
+        padding: 8px;
+        gap: 8px;
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+    }
+    .links{
+        align-items: center;
+    }
+    #line_unline{
+        display: none;
+    }
+    .section, .footer{
+        height: auto;
+        padding: 16px;
     }
 }
 
