@@ -196,13 +196,12 @@ h1, h3 {
 }
 
 #forme .card{
-    width: 80%;
     margin: auto;
 }
 
 /* Card */
 .card {
-    max-width: auto;
+    width: 80%;
     padding: 30px;
 
 /* efeito vidro (glassmorphism) */
@@ -226,6 +225,10 @@ h1, h3 {
 .card h2 {
     margin-bottom: 20px;
     font-size: 1.5rem;
+}
+
+#apresentacao-card {
+    width: 80%;
 }
 
 /* habilidades */
