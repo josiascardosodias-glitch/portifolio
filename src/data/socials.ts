@@ -12,22 +12,22 @@ export type Social = {
 export const socials: Social[] = [
   {
     name: 'GitHub',
-    href: 'https://github.com/josiascardosodias-glitch',
+    href: import.meta.env.VITE_GITHUB_URL,
     icon: githubIcon,
     alt: 'imagem do icone do Github',
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/josias-dias-cardoso/',
+    href: import.meta.env.VITE_LINKEDIN_URL,
     icon: linkedinIcon,
     alt: 'imagem do aplicativo linkedin',
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/josias.d_cardoso/',
+    href: import.meta.env.VITE_INSTAGRAM_URL,
     icon: instagramIcon,
     alt: 'imagem do icone do instagram',
   },
 ]
 
-export const email = 'josiascardosodias@gmail.com'
+export const email = import.meta.env.VITE_CONTACT_EMAIL

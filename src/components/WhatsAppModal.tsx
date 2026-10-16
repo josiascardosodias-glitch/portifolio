@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-const phone = 'NUMERO_REMOVIDO'
+const phone = import.meta.env.VITE_WHATSAPP_NUMBER
 const message = 'Olá! Gostaria de saber um pouco mais sobre o seu trabalho.'
 
 type WhatsAppModalProps = {

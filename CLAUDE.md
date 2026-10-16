@@ -25,6 +25,8 @@ O conteúdo flui em três camadas:
 
 Os `id`s das seções (`sobre`, `habilits`, `forme`, `project`) são âncoras usadas pela navegação do rodapé e pelo botão "Ver projetos" do topo; mantenha-os em sincronia ao renomear.
 
+Links de redes sociais, email e número do WhatsApp vêm de variáveis `VITE_*` do `.env` (fora do git; modelo em `.env.example`, tipos em `src/env.d.ts`). O `vite.config.ts` aborta dev/build se alguma estiver faltando — ao adicionar uma variável nova, inclua-a em `requiredEnv`, no `.env.example` e no `env.d.ts`. Variáveis `VITE_*` vão para o bundle público; `PORT` (porta do dev server) não.
+
 Ícones ficam em `src/assets/icons` e são importados como módulos (`import icon from '../assets/icons/x.svg'`), não referenciados por caminho em `public/`.
 
 ## Estilo (Tailwind v4)
