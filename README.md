@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal: um site de página única que reúne quem eu sou, o que estudo, as tecnologias com que trabalho e os projetos que venho construindo.
 
-> 🔗 O site será publicado em breve.
+> 🔗 **Acesse o site:** https://portifolio-five-blue-15.vercel.app
 
 ## Sobre mim
 
