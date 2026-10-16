@@ -20,7 +20,6 @@ Sou estudante de **Sistemas de Informação** na Faccat e programo há pouco mai
 
 | Projeto | Status | Tecnologias |
 | --- | --- | --- |
-| [Sistema de Gerenciamento de Turma](https://github.com/josiascardosodias-glitch/projeso_sis.escolar) | Em desenvolvimento | Python, Flask, SQLite, HTML, CSS |
 | [Jogo Tetris Skill](https://github.com/josiascardosodias-glitch/tetris-em-C) | Pronto para uso | C |
 
 ## Tecnologias do site
