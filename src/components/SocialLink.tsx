@@ -10,7 +10,7 @@ export function SocialLink({ icon, alt, href }: SocialLinkProps) {
   return (
     <div className="flex size-10 items-center justify-center rounded-[20%] border border-[#ddd] bg-card backdrop-blur-md transition-all duration-400 ease-in-out hover:-translate-y-1">
       {href ? (
-        <a className="flex" href={href} target="_blank">
+        <a className="flex" href={href} target={href.startsWith('http') ? '_blank' : undefined}>
           {image}
         </a>
       ) : (

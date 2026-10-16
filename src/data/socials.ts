@@ -30,4 +30,4 @@ export const socials: Social[] = [
   },
 ]
 
-export const email = 'josiasdiascardoso@gmail.com'
+export const email = 'josiascardosodias@gmail.com'

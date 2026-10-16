@@ -32,7 +32,7 @@ export function Footer() {
         <h3 className="text-[1.17em] font-bold">contato</h3>
         <a
           className="relative mt-3 flex after:absolute after:-bottom-0.5 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all after:duration-200 hover:after:w-full"
-          href="#"
+          href={`mailto:${email}`}
         >
           <span className={linkText}>{email}</span>
         </a>

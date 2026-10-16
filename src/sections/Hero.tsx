@@ -3,7 +3,7 @@ import envelopeIcon from '../assets/icons/envelope-simple.svg'
 import { Section } from '../components/Section'
 import { SocialLink } from '../components/SocialLink'
 import { WhatsAppModal } from '../components/WhatsAppModal'
-import { socials } from '../data/socials'
+import { email, socials } from '../data/socials'
 
 const buttonBase =
   'rounded-lg border border-accent p-4 font-bold transition-all duration-300 ease-in hover:-translate-y-1'
@@ -21,7 +21,7 @@ export function Hero() {
           {socials.map((social) => (
             <SocialLink key={social.name} {...social} />
           ))}
-          <SocialLink icon={envelopeIcon} alt="imagem de um envelope" />
+          <SocialLink icon={envelopeIcon} alt="imagem de um envelope" href={`mailto:${email}`} />
         </div>
 
         <div className="flex gap-4">
