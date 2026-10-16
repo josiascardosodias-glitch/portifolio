@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal: um site de página única que reúne quem eu sou, o que estudo, as tecnologias com que trabalho e os projetos que venho construindo.
 
-> 🔗 **Acesse o site:** https://portifolio-five-blue-15.vercel.app
+> 🔗 **Acesse o site:** https://josiasdias.vercel.app
 
 ## Sobre mim
 
